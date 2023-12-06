@@ -1,0 +1,68 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 4rem 0;
+}
+
+.text {
+  width: 40rem;
+}
+
+.about img {
+  width: 27rem;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-detail {
+  text-transform: uppercase;
+}
+
+.about-detail h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin: 0;
+}
+
+.about-description {
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.about-mission-vision {
+  background-color: rgba(225, 225, 225, 0.437);
+  padding: 1rem;
+  min-height: 14rem;
+}
+
+.about-mission-vision .btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-mission-vision button {
+  padding: 6px 4px;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: rgb(12, 192, 12);
+  font-size: 15px;
+}
+
+.about-mission-vision .active {
+  background-color: rgb(12, 192, 12);
+  padding: 8px 0;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.about-mission-vision p {
+  font-size: 14px;
+  color: rgb(106, 106, 106);
+  margin-top: 18px;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.125);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar h1 {
+  margin: 0 4rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 18px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}

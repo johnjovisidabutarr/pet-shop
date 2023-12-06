@@ -1,0 +1,44 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.service h5 {
+  color: rgb(39, 167, 39);
+}
+
+.service h1 {
+  margin-bottom: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4px;
+}
+
+.grid-item {
+  background-color: rgba(241, 241, 241, 0.3);
+  padding: 20px;
+  font-size: 12px;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+}
+
+.service a {
+  text-decoration: none;
+  color: rgb(39, 167, 39);
+}
+
+.service a:hover {
+  font-weight: bold;
+}
+
+i {
+  font-size: 4rem;
+  color: rgb(12, 192, 12);
+}
